@@ -13,7 +13,10 @@
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3015937"/>
+          <font name="Consolas" style="2"/>
+        </properties>
         <border type="none" title="FACTURA"/>
         <children>
           <grid id="72745" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -29,7 +32,10 @@
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                 </constraints>
-                <properties/>
+                <properties>
+                  <background color="-3015937"/>
+                  <font name="Consolas" style="2"/>
+                </properties>
                 <border type="none" title="Cabecera cliente"/>
                 <children>
                   <component id="57382" class="javax.swing.JLabel">
@@ -37,6 +43,7 @@
                       <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
+                      <font name="Consolas" style="2"/>
                       <text value="Nombre:"/>
                     </properties>
                   </component>
@@ -45,6 +52,7 @@
                       <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
+                      <font name="Consolas" style="2"/>
                       <text value="Cajero:"/>
                     </properties>
                   </component>
@@ -53,6 +61,7 @@
                       <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
+                      <font name="Consolas" style="2"/>
                       <text value="CI/RUC:"/>
                     </properties>
                   </component>
@@ -61,6 +70,7 @@
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
+                      <font name="Consolas" style="2"/>
                       <text value="Fecha:"/>
                     </properties>
                   </component>
@@ -70,7 +80,9 @@
                         <preferred-size width="150" height="-1"/>
                       </grid>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <font name="Consolas" style="2"/>
+                    </properties>
                   </component>
                   <component id="95ff6" class="javax.swing.JTextField" binding="ciructextFiel">
                     <constraints>
@@ -78,7 +90,9 @@
                         <preferred-size width="150" height="-1"/>
                       </grid>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <font name="Consolas" style="2"/>
+                    </properties>
                   </component>
                   <component id="dbca8" class="javax.swing.JTextField" binding="nombretextField">
                     <constraints>
@@ -86,7 +100,9 @@
                         <preferred-size width="150" height="-1"/>
                       </grid>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <font name="Consolas" style="2"/>
+                    </properties>
                   </component>
                   <component id="2a6f3" class="javax.swing.JTextField" binding="idcajerotextField">
                     <constraints>
@@ -94,7 +110,9 @@
                         <preferred-size width="150" height="-1"/>
                       </grid>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <font name="Consolas" style="2"/>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -103,7 +121,10 @@
                 <constraints>
                   <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                 </constraints>
-                <properties/>
+                <properties>
+                  <background color="-3015937"/>
+                  <font name="Consolas" style="1"/>
+                </properties>
                 <border type="none" title="Productos adquiridos"/>
                 <children>
                   <component id="93e0d" class="javax.swing.JTable" binding="productosAdquiridostable">
@@ -112,13 +133,16 @@
                         <preferred-size width="150" height="50"/>
                       </grid>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <background color="-3015937"/>
+                    </properties>
                   </component>
                   <component id="12370" class="javax.swing.JButton" binding="imprimirFacturabutton">
                     <constraints>
                       <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
+                      <font name="Consolas" style="3"/>
                       <text value="Imprimir Factura"/>
                     </properties>
                   </component>
@@ -143,6 +167,7 @@
                       <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
+                      <font name="Consolas" style="3"/>
                       <text value="Nueva Factura"/>
                     </properties>
                   </component>
@@ -153,7 +178,9 @@
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                 </constraints>
-                <properties/>
+                <properties>
+                  <background color="-3015937"/>
+                </properties>
                 <border type="none" title="Valores totales"/>
                 <children>
                   <component id="2092e" class="javax.swing.JLabel">
@@ -161,6 +188,7 @@
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
+                      <font name="Consolas" style="2"/>
                       <text value="Subtotal:"/>
                     </properties>
                   </component>
@@ -170,13 +198,16 @@
                         <preferred-size width="150" height="-1"/>
                       </grid>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <font name="Consolas" style="2"/>
+                    </properties>
                   </component>
                   <component id="49a7b" class="javax.swing.JLabel">
                     <constraints>
                       <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
+                      <font name="Consolas" style="2"/>
                       <text value="IVA:"/>
                     </properties>
                   </component>
@@ -186,13 +217,16 @@
                         <preferred-size width="150" height="-1"/>
                       </grid>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <font name="Consolas" style="2"/>
+                    </properties>
                   </component>
                   <component id="dea1c" class="javax.swing.JLabel">
                     <constraints>
                       <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
+                      <font name="Consolas" style="2"/>
                       <text value="Total:"/>
                     </properties>
                   </component>
@@ -202,7 +236,9 @@
                         <preferred-size width="150" height="-1"/>
                       </grid>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <font name="Consolas" style="2"/>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -225,7 +261,9 @@
         <constraints>
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <font name="Consolas" style="2"/>
+        </properties>
         <border type="none" title="SELECCION DE PRODUCTOS"/>
         <children>
           <grid id="1db05" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -233,7 +271,9 @@
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
-            <properties/>
+            <properties>
+              <background color="-3015937"/>
+            </properties>
             <border type="none" title="Busqueda del producto"/>
             <children>
               <component id="ce3cc" class="javax.swing.JTextField" binding="nombreProductotextField">
@@ -243,6 +283,7 @@
                   </grid>
                 </constraints>
                 <properties>
+                  <font name="Consolas" style="2"/>
                   <text value=""/>
                 </properties>
               </component>
@@ -251,6 +292,7 @@
                   <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
+                  <font name="Consolas" style="3"/>
                   <text value="Buscar"/>
                 </properties>
               </component>
@@ -259,6 +301,7 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
+                  <font name="Consolas" style="2"/>
                   <text value="Nombre:"/>
                 </properties>
               </component>
@@ -267,6 +310,7 @@
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
+                  <font name="Consolas" style="2"/>
                   <text value="Cantidad:"/>
                 </properties>
               </component>
@@ -276,7 +320,9 @@
                     <preferred-size width="150" height="-1"/>
                   </grid>
                 </constraints>
-                <properties/>
+                <properties>
+                  <font name="Consolas" style="2"/>
+                </properties>
               </component>
             </children>
           </grid>
@@ -285,7 +331,9 @@
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
-            <properties/>
+            <properties>
+              <background color="-3015937"/>
+            </properties>
             <border type="none" title="Registros"/>
             <children>
               <component id="24ea1" class="javax.swing.JTable" binding="registrosProductostable">
@@ -294,7 +342,9 @@
                     <preferred-size width="150" height="50"/>
                   </grid>
                 </constraints>
-                <properties/>
+                <properties>
+                  <background color="-3015937"/>
+                </properties>
               </component>
               <component id="665ca" class="javax.swing.JLabel">
                 <constraints>
@@ -332,6 +382,7 @@
                   <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
+                  <font name="Consolas" style="3"/>
                   <text value="Seleccionar"/>
                 </properties>
               </component>
@@ -344,6 +395,7 @@
           <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Consolas" size="12" style="3"/>
           <text value="Regresar"/>
         </properties>
       </component>
