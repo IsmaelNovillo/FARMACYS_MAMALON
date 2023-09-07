@@ -12,8 +12,8 @@
         public VistaLogin() {
             setContentPane(panelLogin);
             pack();
-            setTitle("Ingreso de credenciales");
-            setLocation(600,250);
+            setTitle("INICIO DE SESION");
+            setLocation(100,100);
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         }
