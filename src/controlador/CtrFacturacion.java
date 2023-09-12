@@ -214,7 +214,7 @@ public class CtrFacturacion implements ActionListener {
         {
             //Formaetar el PDF
             // Creacer una Imagen desde la propia liberia para exportar PDF's
-            Image header = Image.getInstance("src/img/buho.png");
+            Image header = Image.getInstance("src/img/logo.jpeg");
             // Tamaño
             header.scaleAbsolute(200, 150);
             // Alinacion de la imagen
@@ -225,8 +225,8 @@ public class CtrFacturacion implements ActionListener {
             Paragraph datos = new Paragraph();
             // Alineacion
             parrafos.setAlignment(Paragraph.ALIGN_CENTER);
-            parrafos.add("El Buho \n" +
-                    "MINIMARKET\n\n");
+            parrafos.add("FARMACYS \n" +
+                    "EL MAMALON \n\n");
             // Fuente
             parrafos.setFont(FontFactory.getFont("Tahoma", 20, Font.BOLD, BaseColor.BLACK));
 
