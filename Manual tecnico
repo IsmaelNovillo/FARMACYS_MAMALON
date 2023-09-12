@@ -1,0 +1,75 @@
+Manual Técnico del Sistema de Gestión de Farmacia
+
+Introducción
+El Sistema de Gestión de Farmacia es una aplicación de software diseñada para ayudar a las farmacias a administrar eficazmente sus inventarios, ventas y operaciones diarias. Este manual técnico proporciona información detallada sobre la implementación y funcionamiento interno del sistema.
+Audiencia
+Este manual está dirigido a desarrolladores, administradores de sistemas y personal técnico que necesitan comprender la arquitectura y el funcionamiento técnico del sistema.
+Requisitos del Sistema
+Requisitos de Hardware
+Servidor:
+•	Procesador de al menos 2 GHz
+•	4 GB de RAM
+•	Espacio en disco de 20 GB
+Estaciones de Trabajo:
+•	Procesador de al menos 1 GHz
+•	2 GB de RAM
+•	Espacio en disco de 10 GB
+Requisitos de Software
+•	Sistema Operativo del Servidor: Windows Server 2016 o posterior.
+•	Servidor de Base de Datos: MYSQL Workbench
+
+Arquitectura del Sistema
+El sistema de gestión de farmacia sigue una arquitectura cliente-servidor. Los componentes principales incluyen:
+•	Cliente (Interfaz de Usuario)
+•	Servidor de Aplicaciones
+•	Servidor de Base de Datos (Workbench)
+
+Componentes del Sistema
+Base de Datos
+La base de datos almacena información sobre productos, inventario, transacciones y usuarios. Utiliza PostgreSQL como sistema de gestión de base de datos.
+
+Servidor de Aplicaciones
+El servidor de aplicaciones ejecuta la lógica del negocio y gestiona las solicitudes del cliente. Está implementado en Java y utiliza GUI Forms.
+Cliente (Interfaz de Usuario)
+El cliente proporciona una interfaz gráfica para que los usuarios(cajeros) realicen operaciones como ventas, gestión de inventario y generación de informes
+Uso del sistema
+El proyecto de desarrollo de una aplicación para la farmacia ‘FARMACY’, busca cumplir con los requerimientos especificados por el cliente, en donde se diseñó y se construyó utilizando el lenguaje de programación Java y aplicando los conceptos de Programación Orientada a Objetos.
+El diseño implementado fue el siguiente donde consta de 4 paquetes (controlador, img, modelo, vistas) y una clase “Principal” donde se encuentra el main. 
+El funcionamiento del mismo inicia desde la clase Principal, donde se dirige a continuación a la VistaLogin, ubicado en el package “Vistas”, aquí nos encontramos con diferentes ventanas encargadas de visualizar al usuario los diferentes escenarios como: Vista de login, Vista del cajero, vista del CRUD del cajero y los Productos por parte del administrador. Estos los consideraremos como la interfaz gráfica de la aplicación. En este se encuentra el diseño de cada interfaz y su respectiva clase. 
+La clase VistaLogin es la representación visual de la ventana de inicio de sesión de la aplicación. El funcionamiento de esta clase se basa en el ingreso del cajero y del administrador mediante el código y usuario administrados y almacenados en la base de datos. 
+ 
+La clase VistaCRUDCajero es la representación visual de la ventana de añadir o eliminar cajeros por parte del administrador de la aplicación. El funcionamiento de esta clase inicia solo con el ingreso del administrador.
+ 
+Para el diseño de la aplicación nos encontramos con la gestión de productos para ello se añadió una clase que interactúa con la base de datos donde se puede buscar los productos, añadir o eliminar dichos productos. 
+ 
+En vista a los requerimientos fue necesario que el administrador pueda realizar cambios en los cajeros, para ello se añadió una interfaz donde se pueda realizar la consulta de los cajeros, así como las ventas realizadas durante por cada cajero. Para consultar cada uno de los cajeros lo realizaremos por código, en donde se nos mostrará el nombre y apellido del mismo.
+ 
+Hemos hablado del administrador, pero como es la interfaz de este. La interfaz del administrador es muy importante, ya que este puede añadir y dirigir su negocio. Para ello la siguiente interfaz.
+ 
+Donde se agregó tres botones, para agregar productos, revisar las ventas de los cajeros y agregar cajeros a la lista, así como eliminarlos de la base de datos. Con el fin de mejorar la experiencia de inicio de sesión se agregó un botón de cerrar sesión, el cual nos lleva a la página principal del login.
+
+ 
+Para acceder a la parte del cajero es necesario elegir la opción del cajero e ingresar usuario y contraseña. Donde se nos despliega la siguiente ventana, en el cual podemos añadir los productos que vamos a añadir al carrito. Añadimos la fecha de realización de la factura, el Ruc del cliente, el nombre tanto del cliente como del cajero que lo atendió como parte de la cabecera de la factura.
+ 
+Finalmente añadimos los productos mediante el nombre y añadimos la cantidad a ingresar. Al dar click en el botón buscar nos despliega el registro de los productos como el stock y el precio. Estos se añaden a la factura una vez seleccionado en imprimir factura.
+ 
+ 
+Al dar click en imprimir factura este desplegará una ventana emergente de Imprimiendo factura, en caso de algún error, este no lo hará. Cabe mencionar que cada una de los botones fueron programada para imprimir en consola para dar seguimiento al programa.
+ 
+
+
+Seguridad
+La seguridad es una preocupación crítica en el sistema de gestión de farmacia. Se deben seguir las siguientes mejores prácticas:
+•	Establecer roles y permisos de usuario adecuados.
+•	Implementar medidas de autenticación sólidas.
+•	Regularmente aplicar actualizaciones de seguridad.
+Mantenimiento y Actualizaciones
+El sistema requiere un mantenimiento regular, que incluye:
+•	Realizar copias de seguridad de la base de datos de forma periódica.
+•	Aplicar actualizaciones de software y parches de seguridad según sea necesario.
+•	Monitorear el rendimiento y la disponibilidad del sistema.
+Para obtener más información sobre el sistema y su funcionamiento técnico, consulte la documentación técnica proporcionada por el equipo de desarrollo.
+Actualizaciones y Versiones
+Versión 1.0: [Fecha de la Versión 1.0]
+Agradecimientos
+Agradecemos al equipo de desarrollo por su dedicación en la creación de este sistema de gestión de farmacia.
